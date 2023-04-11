@@ -1,7 +1,16 @@
+import Header from "./components/Header"
+import JournalEntry from "./components/JournalLog"
+
+
 function App() {
 
   return (
-    <h1>Test</h1>
+    <>
+      <Header />
+      <JournalEntry />
+      <JournalEntry />
+      <JournalEntry />
+    </>
   )
 }
 
