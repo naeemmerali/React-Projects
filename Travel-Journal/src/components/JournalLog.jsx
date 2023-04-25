@@ -1,21 +1,18 @@
-import Data from "../data.js"
 import { PositionIcon } from "./Icons.jsx"
 
-const entries = Data[0]
-
-export default function JournalEntry(){
+export default function JournalEntry(props){
     return (
-    <div classList="journal-container">
-        <img src={entries.imageUrl} alt="" />
-        <div classList="entry-info-container">
-            <div>
+    <div className="journal-container">
+        <img src={props.imgURL} className="location-img" alt="" />
+        <div className="entry-info-container">
+            <div className="location-info">
                 <PositionIcon />
-                <p>{entries.location}</p>
-                <a href={entries.googleMapsUrl}>View On Google</a>
+                <p className="location-country">{props.title}</p>
+                <a href={props.link} className="map-link">View On Google</a>
             </div>
-            <h1>{entries.title}</h1>
-            <h2>{entries.startDate} - {entries.endDate}</h2>
-            <p>{entries.description}</p>
+            <h1 className="location-title">{props.location}</h1>
+            <h2 className="dates">{props.startDate} - {props.endDate}</h2>
+            <p className="decsription">{props.description}</p>
         </div>
     </div>
     )
