@@ -1,6 +1,6 @@
 # Scrimba - React Quiz App
 
-This is a solution to the [Quizzical solo project on Scrimba](https://scrimba.com/learn/learnreact/](https://scrimba.com/learn/learnreact/solo-project-pro-quizzical-co63f4a65ac316545d08e1674)). 
+This is a solution to the [Quizzical solo project on Scrimba](https://scrimba.com/learn/learnreact/solo-project-pro-quizzical-co63f4a65ac316545d08e1674). 
 
 ## Table of contents
 
